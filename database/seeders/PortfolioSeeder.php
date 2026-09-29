@@ -107,6 +107,7 @@ class PortfolioSeeder extends Seeder
                 'role' => 'Fullstack Developer',
                 'period' => 'Jan 2026 – Mar 2026',
                 'summary' => 'Internal application built with Laravel Filament and PostgreSQL to manage employee records, assessment-related data, and supporting internal data-input processes in a structured, efficient way.',
+                'repository_url' => 'https://github.com/FerdieF/hr_laravel_project',
                 'highlights' => [
                     'Data-driven dashboard performing real-time aggregation of assessment results — total records, activities, and participant summaries — straight from PostgreSQL.',
                     'Comprehensive CRUD system for employee master data, with database normalization and validation keeping NRK, unit, and position fields consistent.',

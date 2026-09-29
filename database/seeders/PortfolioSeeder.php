@@ -147,6 +147,7 @@ class PortfolioSeeder extends Seeder
                 'role' => 'Network Engineer',
                 'period' => '2026',
                 'summary' => 'Hands-on networking lab built with Cisco Packet Tracer and VirtualBox to practice enterprise networking concepts including VLAN segmentation, inter-VLAN routing, DHCP, DNS, subnetting, and ACL-based security policies.',
+                'repository_url' => 'https://github.com/FerdieF/enterprise-network-simulation',
                 'highlights' => [
                     'Designed and configured a multi-VLAN network (Users, Servers, Guest) with 802.1Q trunking and Router-on-a-Stick for inter-VLAN routing across three subnets.',
                     'Implemented DHCP pools per VLAN with exclusion ranges and DNS integration, enabling automatic IP assignment and hostname resolution (server.local → 192.168.20.10).',
